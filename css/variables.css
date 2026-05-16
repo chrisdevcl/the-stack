@@ -1,0 +1,51 @@
+/* ─── Theme Tokens ─────────────────────────────────────── */
+:root {
+  --bg:              #07090F;
+  --bg-subtle:       #0C1019;
+  --surface:         #101520;
+  --surface-hover:   #141C2B;
+  --border:          rgba(255,255,255,0.055);
+  --border-strong:   rgba(255,255,255,0.10);
+
+  --text-1:          #E8EDF5;
+  --text-2:          #8B96A8;
+  --text-3:          #4B5668;
+
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.5), 0 4px 12px rgba(0,0,0,0.35);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.55), 0 12px 36px rgba(0,0,0,0.4);
+
+  --dot-color:  rgba(255,255,255,0.06);
+
+  --radius:     14px;
+  --ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --speed:      0.22s;
+}
+
+[data-theme="light"] {
+  --bg:              #ECEAE3;
+  --bg-subtle:       #E4E2DB;
+  --surface:         #FFFFFF;
+  --surface-hover:   #FAFAF8;
+  --border:          rgba(0,0,0,0.07);
+  --border-strong:   rgba(0,0,0,0.13);
+
+  --text-1:          #0F172A;
+  --text-2:          #485566;
+  --text-3:          #94A3B8;
+
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.05);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.10), 0 12px 36px rgba(0,0,0,0.07);
+
+  --dot-color:  rgba(0,0,0,0.055);
+}
+
+/* ─── Category Color Palette ────────────────────────────── */
+:root {
+  --cat-fundamentos:  #818CF8;
+  --cat-patrones:     #34D399;
+  --cat-deuda:        #FBBF24;
+  --cat-testing:      #F472B6;
+  --cat-sistemas:     #38BDF8;
+  --cat-colaboracion: #C084FC;
+  --cat-sistemico:    #FB923C;
+}
